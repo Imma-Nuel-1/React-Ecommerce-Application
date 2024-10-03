@@ -1,0 +1,25 @@
+<svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Text for "Elite" -->
+  <text x="10" y="40" font-family="Arial, sans-serif" font-size="30" fill="url(#gradientElite)" font-weight="bold">
+    Elite
+  </text>
+  
+  <!-- Text for "Auto Hub" -->
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="30" fill="url(#gradientAutoHub)" font-weight="bold">
+    Auto Hub
+  </text>
+
+  <!-- Gradient for "Elite" text -->
+  <defs>
+    <linearGradient id="gradientElite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33E6C9"/>
+      <stop offset="100%" stop-color="#247ECB"/>
+    </linearGradient>
+
+    <!-- Gradient for "Auto Hub" text updated -->
+    <linearGradient id="gradientAutoHub" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff6f61"/>
+      <stop offset="100%" stop-color="#ff6f61"/>
+    </linearGradient>
+  </defs>
+</svg>

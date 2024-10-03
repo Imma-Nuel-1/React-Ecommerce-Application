@@ -1,0 +1,26 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Car body with a sleeker curve -->
+  <path d="M10 45 Q 60 5, 110 45" stroke="#ff6f61" stroke-width="3" fill="none" />
+  <path d="M10 40 Q 60 0, 110 40" stroke="url(#paint0_linear)" stroke-width="3" fill="none" />
+  
+  <!-- Car bottom line for more depth -->
+  <path d="M10 45 Q 30 60, 50 45 T 90 45 T 110 45" stroke="#ff6f61" stroke-width="2" fill="none" />
+
+  <!-- Wheels with rims -->
+  <circle cx="30" cy="45" r="6" fill="#ff6f61" />
+  <circle cx="90" cy="45" r="6" fill="#ff6f61" />
+  <circle cx="30" cy="45" r="3" fill="white" />
+  <circle cx="90" cy="45" r="3" fill="white" />
+
+  <!-- Headlights -->
+  <circle cx="15" cy="45" r="2" fill="#FFDA44" />
+  <circle cx="105" cy="45" r="2" fill="#FFDA44" />
+
+  <!-- Gradient for the car body -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="10" y1="40" x2="110" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6f61"/>
+      <stop offset="1" stop-color="#ff6f61"/>
+    </linearGradient>
+  </defs>
+</svg>
